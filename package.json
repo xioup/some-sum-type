@@ -2,15 +2,24 @@
   "name": "some-sum-type",
   "version": "0.0.1",
   "description": "Powerful sum type library based on sanctuary-def",
-  "author": { "name": "Kurt Milam"
-            , "email": "kurt.milam@xioup.com"
-            , "url": "http://xioup.com"
-            },
+  "author": {
+    "name": "Kurt Milam",
+    "email": "kurt.milam@xioup.com",
+    "url": "http://xioup.com"
+  },
   "main": "index.js",
-  "keywords": [ "sum type", "union type", "adts", "algabraic data types"
-              , "functional programming", "sanctuary", "sanctuary-def"
-              , "ramda", "static", "validation"
-              ],
+  "keywords": [
+    "sum type",
+    "union type",
+    "adts",
+    "algabraic data types",
+    "functional programming",
+    "sanctuary",
+    "sanctuary-def",
+    "ramda",
+    "static",
+    "validation"
+  ],
   "dependencies": {
     "ramda": "^0.24.1",
     "sanctuary": "^0.13.2",
@@ -24,5 +33,9 @@
   "engines": {
     "node": "6.x"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0"
+  }
 }
